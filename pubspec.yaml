@@ -1,0 +1,42 @@
+name: habit_tracker
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  isar: ^3.1.0+1
+  path_provider: ^2.1.5
+  isar_flutter_libs: ^3.1.0+1
+  flutter_slidable: ^4.0.0
+  flutter_heatmap_calendar: ^1.0.5
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.10.0
+  permission_handler: ^11.3.1
+  flutter_launcher_icons: ^0.14.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  analyzer: ^7.3.0
+  build_runner: ^2.4.15
+  dart_style: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+assets:
+  - assets/habit_logo.png
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/habit_logo.png"  
